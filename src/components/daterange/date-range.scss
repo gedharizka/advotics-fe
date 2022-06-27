@@ -1,0 +1,21 @@
+.rdrDay {
+    background: transparent;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 0;
+    padding: 0;
+    line-height: 3.000em;
+    height: 3.000em;
+    text-align: center;
+    color: #367d3b !important;
+}
+
+.rdrInRange {
+    color: rgb(55, 176, 76) !important;
+}
+
+.rdrStaticRange:hover .rdrStaticRangeLabel, .rdrStaticRange:focus .rdrStaticRangeLabel {
+    background: #37B04C;
+}
